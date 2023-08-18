@@ -1,55 +1,45 @@
 import "./SobreMim.css";
 import PostModelo from "Componentes/PostModelo";
 import fotoCapa from "assets/sobre_mim_capa.png";
-import fotoSobreMim from "assets/sobre_mim_foto.png";
 
 export default function SobreMim() {
   return (
     <PostModelo fotoCapa={fotoCapa} titulo="Sobre mim">
-      <h3 className="subtitulo">Olá, eu sou o Antônio!</h3>
+      <h3 className="subtitulo">Olá, eu sou a Barbara!</h3>
 
       <img
-        src={fotoSobreMim}
+        src={"https://github.com/balicoelho.png"}
         alt="Foto do Antônio Evaldo sorrindo"
         className="fotoSobreMim"
       />
 
       <p className="paragrafo">
-        Oi, tudo bem? Eu sou instrutor de Front-end na Alura e estou feliz de te
-        ver por aqui.
+        Oi, tudo bem? Eu sou aluna de Front-end na Alura e estou feliz de te ver
+        por aqui.
       </p>
       <p className="paragrafo">
-        Minha história com programação começou no Instituto Federal do Piauí
-        (IFPI), quando fiz o ensino médio integrado ao curso de Informática. Eu
-        aprendi lógica de programação e o básico de várias linguagens, como PHP,
-        Python, Java, mas sem aprofundar muito em cada uma delas. Eu gostava
-        muito de estudar programação, mas na época não fazia ideia de que
-        trabalharia com isso hoje.
+        Com quase 20 anos de experiência profissional, minha dedicação sempre
+        esteve voltada para trazer melhorias inteligentes e simplificar
+        processos em todas as empresas por onde passei. Esse propósito me levou
+        a fazer uma transição de carreira de Engenheira de Produção para o
+        Desenvolvimento Web, encontrando na tecnologia e no desenvolvimento de
+        software os aliados fundamentais para alcançar meus objetivos.
       </p>
       <p className="paragrafo">
-        No ensino superior, escolhi cursar Engenharia Elétrica na Universidade
-        Federal do Piauí (UFPI). Lá eu consegui entrar no PET (Programa de
-        Educação Tutorial), um grupo acadêmico que contribui de diversas formas
-        para o curso. Lá eu tive a oportunidade de estudar desenvolvimento web
-        para ser um dos mantenedores do site deles.
+        Ao longo do tempo, adquiri ampla vivência em gestão empresarial,
+        liderança de equipes e recrutamento de executivos, enquanto trabalhava
+        em grandes empresas nacionais e multinacionais. Em 2023, tive meu
+        primeiro contato com a programação, e desde então, minha paixão por essa
+        área só cresceu. Iniciei minha jornada de estudos, mergulhando tanto em
+        tecnologias front-end (ReactJS, Typescript) quanto back-end (NodeJS,
+        TypeScript e SQL).
       </p>
       <p className="paragrafo">
-        Com isso tive minha experiência de dev mais próxima da realidade, com
-        prazos de implementação para o site, e aprendi muito enquanto
-        codificava.
-      </p>
-      <p className="paragrafo">
-        E foi enquanto eu estava no PET que decidi procurar um estágio em
-        desenvolvimento web. Eu encontrei uma vaga na Alura para o Scuba Team e
-        percebi que ela aliava duas paixões minhas: programação e educação. Para
-        minha felicidade, fui escolhido para fazer parte do time.
-      </p>
-      <p className="paragrafo">
-        Desde então, tem sido aprenas aprendizados atrás de aprendizados. A
-        Alura é uma escola não só para seus alunos e alunas, mas também para os
-        colaboradores e colaboradoras. Hoje sou muito feliz de ter a
-        oportunidade de trazer esses conteúdos ricos e encantadores para você.
-        Espero que aprenda bastante!
+        Atualmente, meu interesse está direcionado para atuar como
+        Desenvolvedora Web, seja no back-end, front-end ou em uma abordagem full
+        stack. Minha ampla experiência em processos empresariais, combinada com
+        minha paixão pela tecnologia, me proporciona uma visão abrangente e
+        estratégica para desenvolver soluções inovadoras.
       </p>
     </PostModelo>
   );

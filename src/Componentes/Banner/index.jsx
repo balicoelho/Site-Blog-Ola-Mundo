@@ -1,6 +1,5 @@
 import "./Banner.css";
 import circuloColorido from "../../assets/circulo_colorido.png";
-import minhafoto from "../../assets/minha_foto.png";
 
 export default function Banner() {
   return (
@@ -8,10 +7,9 @@ export default function Banner() {
       <div className="apresentacao">
         <h1 className="titulo">Olá mundo</h1>
         <p className="paragrafo">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laudantium
-          sunt laborum, inventore excepturi blanditiis, nulla ducimus sapiente
-          nemo impedit nesciunt eos, quod molestiae maxime enim voluptates
-          aperiam repellat officiis?
+          Boas vindas ao meu espaço pessoal! Eu sou Barbara Coelho, aluna de
+          Front-end da Alura. Aqui compartilho várias informações obtidas no
+          curso de React, espero que aprenda algo novo :)
         </p>
       </div>
       <div className="imagens">
@@ -21,7 +19,11 @@ export default function Banner() {
           className="circuloColorido"
           alt="circulos"
         />
-        <img src={minhafoto} alt="minha foto" className="minhaFoto" />
+        <img
+          src={"https://github.com/balicoelho.png"}
+          alt="minha foto"
+          className="minhaFoto"
+        />
       </div>
     </div>
   );

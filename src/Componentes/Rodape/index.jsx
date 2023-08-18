@@ -5,7 +5,7 @@ export default function Rodape() {
   return (
     <footer className="rodape">
       <MarcaRegistrada />
-      Desenvolvido por Alura.
+      Desenvolvido por Barbara Coelho.
     </footer>
   );
 }
